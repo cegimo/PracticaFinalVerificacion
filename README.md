@@ -16,7 +16,7 @@ source /venv/bin/activate
 ```
 4. Install the requirements into your project
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 5. Run Redis service & client
