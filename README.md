@@ -46,6 +46,6 @@ venv/bin/pylint juego/game.py
 # Coverage
 ```
 cd juego
-env/bin/coverage run game.py
-env/bin/coverage report game.py
+venv/bin/coverage run game.py
+venv/bin/coverage report game.py
 ```
