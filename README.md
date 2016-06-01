@@ -28,17 +28,19 @@ redis-cli
 ## Run Tests
 Unit Tests
 ```
-venv/bin/py.test tests
+venv/bin/py.test tests/game_tests.py
+or
+venv/bin/nosetests tests/game_tests.py
 
 ```
 BDD Tests
 ```
-lettuce
+lettuce tests
 ```
 
 ## Pylint
 ```
-venv/bin/pylint game.py
+venv/bin/pylint juego/game.py
 ```
 
 # Coverage
