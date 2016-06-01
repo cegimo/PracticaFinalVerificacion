@@ -12,7 +12,7 @@ pip install virtualenv
 ```
 rm -rf venv
 virtualenv venv
-source /venv/bin/activate
+source venv/bin/activate
 ```
 4. Install the requirements into your project
 ```
